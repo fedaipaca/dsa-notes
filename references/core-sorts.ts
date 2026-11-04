@@ -120,7 +120,6 @@ function quickSort(numbers: number[], left = 0, right = numbers.length - 1) {
     if (left >= right) {
         return numbers;
     }
-    //  5, 3, 8, 2
 
     const pivot = numbers[right] // last element is the pivot
     let partitionIndex = left; // partition index (writer) start from the left
